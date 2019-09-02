@@ -9,5 +9,11 @@ module.exports = {
       filename: './data/projects.db3'
     }
   },
-}
+  migrations: {
+    directory: '../migrations'
+  },
+  seeds: {
+    directory: '../seeds'
+  }
+};
   
